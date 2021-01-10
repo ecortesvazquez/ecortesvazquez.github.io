@@ -1,0 +1,80 @@
+.section {
+  min-height: 100vh;
+  border-bottom: 1px solid var(--bs-warning);
+  padding: 1rem;
+}
+
+.fullname-container {
+  position: relative;
+}
+
+.dot-color {
+  height: 100px;
+  width: 100px;
+  background-color: var(--bs-warning);
+  border-radius: 50%;
+  position: absolute;
+  top: -60px;
+  left: -70px;
+  z-index: -1;
+}
+
+.job-text {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.underline-color {
+  height: 10px;
+  width: 100%;
+  background-color: var(--bs-warning);
+  margin-top: -17px;
+}
+
+.card-body-about {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section-title {
+  padding-bottom: 4rem;
+  position: relative;
+  display: block;
+}
+
+.underline-title-color {
+  height: 10px;
+  width: 250px;
+  background-color: var(--bs-warning);
+  margin-top: 30px;
+  z-index: -1;
+  position: absolute;
+}
+
+.img-skill {
+  width: 100px;
+  height: 100%;
+}
+
+.education-text {
+    font-weight: bold;
+}
+
+.list-experience-education {
+    height: 120px;
+}
+
+.linkedin-font {
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .dot-color {
+    height: 50px;
+    width: 50px;
+    top: -25px;
+    left: -25px;
+  }
+}
